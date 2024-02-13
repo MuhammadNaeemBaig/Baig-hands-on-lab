@@ -8,47 +8,7 @@ jobs:
     name: Job1
     steps: []
     subgraphs: []
-locations:
-  SRC:
-    mappingDefinitions:
-      "17":
-        database: BAIG
-        schema: WORKDEV
-      "18":
-        database: BAIG
-        schema: WORKTEST
-  WORK:
-    mappingDefinitions:
-      "17":
-        database: BAIG
-        schema: WORKTEST
-      "18":
-        database: BAIG
-        schema: WORKPROD
-  WORKDEV:
-    mappingDefinitions:
-      "17":
-        database: BAIG
-        schema: WORKDEV
-      "18":
-        database: BAIG
-        schema: WORKDEV
-  WORKPROD:
-    mappingDefinitions:
-      "17":
-        database: BAIG
-        schema: WORKPROD
-      "18":
-        database: BAIG
-        schema: WORKPROD
-  WORKTEST:
-    mappingDefinitions:
-      "17":
-        database: BAIG
-        schema: WORKTEST
-      "18":
-        database: BAIG
-        schema: WORKTEST
+locations: {}
 macros: {}
 packages: {}
 projects: {}
