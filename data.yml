@@ -14,11 +14,17 @@ locations:
       "110":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
+      "111":
+        database: BAIG
+        schema: WORKTEST
   WORK:
     mappingDefinitions:
       "110":
         database: BAIG
         schema: WORKTEST
+      "111":
+        database: BAIG
+        schema: WORKPROD
 macros: {}
 packages: {}
 projects: {}
