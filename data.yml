@@ -1,4 +1,4 @@
-defaultStorageMapping: WORK
+defaultStorageMapping: WORKDEV
 installedPackages: {}
 jobs:
   Job-6:
@@ -18,6 +18,22 @@ locations:
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
   WORK:
+    mappingDefinitions:
+      "17":
+        database: BAIG
+        schema: WORKTEST
+      "18":
+        database: BAIG
+        schema: WORKTEST
+  WORKDEV:
+    mappingDefinitions:
+      "17":
+        database: BAIG
+        schema: WORKDEV
+      "18":
+        database: BAIG
+        schema: WORKTEST
+  WORKTEST:
     mappingDefinitions:
       "17":
         database: BAIG
