@@ -15,8 +15,8 @@ locations:
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
       "111":
-        database: BAIG
-        schema: WORKTEST
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   WORK:
     mappingDefinitions:
       "110":
