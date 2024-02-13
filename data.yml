@@ -12,8 +12,8 @@ locations:
   SRC:
     mappingDefinitions:
       "17":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
+        database: BAIG
+        schema: WORKDEV
       "18":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
@@ -21,7 +21,7 @@ locations:
     mappingDefinitions:
       "17":
         database: BAIG
-        schema: WORKDEV
+        schema: WORKTEST
       "18":
         database: BAIG
         schema: WORKTEST
