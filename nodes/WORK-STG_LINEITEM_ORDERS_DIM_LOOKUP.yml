@@ -462,6 +462,22 @@ steps:
                   - columnCounter: eef4a9b4-c6b6-4a78-8b75-08bdd13d38e0
                     stepCounter: df8e65cd-f791-462f-90c3-cae1ffba6bbd
                 transform: ""
+          - acceptedValues:
+              strictMatch: false
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c2f4fb15-69e5-4fa3-9722-ee19a3da95b3
+              stepCounter: b5985a1c-ede7-4c8a-b31e-201cee0a12b5
+            dataType: NUMBER
+            description: ""
+            name: DAYS_TO_SHIP1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f7e423d9-a807-48ce-98d7-90a75f236e6d
+                    stepCounter: df8e65cd-f791-462f-90c3-cae1ffba6bbd
+                transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:

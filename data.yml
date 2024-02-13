@@ -21,7 +21,7 @@ locations:
     mappingDefinitions:
       "17":
         database: BAIG
-        schema: WORKTEST
+        schema: WORKDEV
       "18":
         database: BAIG
         schema: WORKTEST
