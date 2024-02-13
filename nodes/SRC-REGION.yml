@@ -1,11 +1,10 @@
 steps:
-  REGION-dbfa0cbe-18ea-46b5-890a-c2b0bff75a72:
+  REGION-f2ad321a-0c9d-424a-9544-3bf96b3f7dfb:
     operation:
       database: ""
       dataset: ""
       deployEnabled: true
       description: Region data as defined by TPC-H
-      locationID: ""
       locationName: SRC
       metadata:
         columns:
@@ -14,8 +13,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 64b8bf2c-f2b4-41d2-a419-8d5af4430495
-              stepCounter: dbfa0cbe-18ea-46b5-890a-c2b0bff75a72
+              columnCounter: 3b35d9fa-a699-41c9-8273-5963529c8df4
+              stepCounter: f2ad321a-0c9d-424a-9544-3bf96b3f7dfb
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -29,8 +28,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: cca26585-24d9-48df-bd0c-13feba174c65
-              stepCounter: dbfa0cbe-18ea-46b5-890a-c2b0bff75a72
+              columnCounter: 37b3d54e-861f-47da-8e08-1bf2ac43076c
+              stepCounter: f2ad321a-0c9d-424a-9544-3bf96b3f7dfb
             config: {}
             dataType: VARCHAR(25)
             defaultValue: ""
@@ -44,8 +43,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 701e3bb2-8907-4bbd-9e89-b053e404a3f0
-              stepCounter: dbfa0cbe-18ea-46b5-890a-c2b0bff75a72
+              columnCounter: 85a2b2af-99ee-4202-bc8c-e18cc59e8095
+              stepCounter: f2ad321a-0c9d-424a-9544-3bf96b3f7dfb
             config: {}
             dataType: VARCHAR(152)
             defaultValue: ""
@@ -61,4 +60,4 @@ steps:
       sqlType: Source
       table: REGION
       type: sourceInput
-    stepCounter: dbfa0cbe-18ea-46b5-890a-c2b0bff75a72
+    stepCounter: f2ad321a-0c9d-424a-9544-3bf96b3f7dfb
