@@ -20,10 +20,10 @@ locations:
   WORK:
     mappingDefinitions:
       "110":
-        database: BAIG
+        database: MIPFLYINGDOCTORDEMO
         schema: WORKTEST
       "111":
-        database: BAIG
+        database: MIPFLYINGDOCTORDEMO
         schema: WORKPROD
 macros: {}
 packages: {}
