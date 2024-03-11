@@ -24,6 +24,9 @@ locations:
       "111":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
+      "115":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   WORK:
     mappingDefinitions:
       "110":
@@ -32,6 +35,9 @@ locations:
       "111":
         database: MIPFLYINGDOCTORDEMO
         schema: WORKPROD
+      "115":
+        database: MIPFLYINGDOCTORDEMO
+        schema: WORKTEST
 macros: {}
 packages: {}
 projects: {}
