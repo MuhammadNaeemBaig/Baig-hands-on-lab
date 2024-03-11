@@ -8,6 +8,13 @@ jobs:
     name: MyFirstCoalesceJob
     steps: []
     subgraphs: []
+  Job-34:
+    excludeSelector: ""
+    id: 34
+    includeSelector: "{ location: WORK name: STG_REGION } OR { location: SRC name: REGION } OR { location: WORK name: DIM_REGION }"
+    name: Extend_Main_FirstJob
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
